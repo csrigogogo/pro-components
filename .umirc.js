@@ -29,6 +29,7 @@ const isDeploy = process.env.SITE_DEPLOY === 'TRUE';
 export default {
   title: 'ProComponents',
   mode: 'site',
+  base: '/pro-components',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
   extraBabelPlugins: [
     [

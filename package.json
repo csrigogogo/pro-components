@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "deployV1": "yarn run build && yarn run site && node ./scripts/preDeploy && cross-env SITE_DEPLOY='TRUE' dumi build",
+    "deployV1": "yarn run build && node ./scripts/preDeploy && cross-env SITE_DEPLOY='TRUE' dumi build",
     "bootstrap": "node ./scripts/bootstrap.js",
     "build": "npm run version && npm run build-lib && webpack && node ./scripts/gen_less_entry.js",
     "build-lib": "cross-env BUILD_TYPE=lib father-build && cross-env BUILD_TYPE=es father-build",
