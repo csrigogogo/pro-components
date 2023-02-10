@@ -30,6 +30,7 @@ export default {
   title: 'ProComponents',
   mode: 'site',
   base: '/pro-components',
+  publicPath: './',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
   extraBabelPlugins: [
     [
